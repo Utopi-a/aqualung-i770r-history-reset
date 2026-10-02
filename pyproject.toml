@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aqualung-i770r-history-reset"
+version = "0.1.0"
+description = "HISTORY-only Bluetooth protocol research for Aqualung i770R"
+requires-python = ">=3.11"
+dependencies = ["bleak==3.0.2"]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{name = "Utopi-a"}]
+readme = "README.md"
+
+[project.scripts]
+i770r-history = "i770r_history:main"
+
+[tool.setuptools]
+py-modules = ["i770r_history"]

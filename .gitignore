@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+backups/
+*.bin
+*.zip
+*.apk
+*.FWR
+*.fwr
+*.log
+.env*
+.DS_Store

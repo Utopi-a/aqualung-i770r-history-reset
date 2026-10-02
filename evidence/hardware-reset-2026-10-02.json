@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-02",
+  "model": "Aqualung i770R",
+  "version_response": "AQUA770R 2A 0006",
+  "implementation": "local research prototype, not the published refactoring",
+  "connection": "macOS / Bluetooth LE",
+  "same_value_write_ack": "5a",
+  "same_value_readback_changed_bytes": 0,
+  "reset_ack": "5a",
+  "total_dive_before": 206,
+  "total_dive_after": 0,
+  "history_after": "00000000000000000000000000000000",
+  "low_256_changed_offsets": [
+    "0x0060",
+    "0x0064",
+    "0x0066",
+    "0x0068",
+    "0x0069",
+    "0x006a",
+    "0x006c",
+    "0x006d",
+    "0x006e"
+  ],
+  "calibration_candidate_48_bytes_unchanged": true,
+  "protected_candidate_blocks_changed_offsets": {
+    "0x3fe00": [],
+    "0x3ff00": []
+  },
+  "separate_connection_history_zero_verified": true,
+  "owner_confirmed_device_history_display": true,
+  "log_deletion_achieved": false,
+  "log_data_restoration_pages_verified": 606,
+  "restored_index_order": {
+    "visible_records": 99,
+    "unique_records": 99,
+    "reverse_chronological_record_indices": true
+  },
+  "final_full_device_recheck_completed": false,
+  "underwater_operation_tested": false,
+  "privacy": "No device name, serial, personal information, raw memory, hashes of raw memory, APK or bugreport included."
+}
